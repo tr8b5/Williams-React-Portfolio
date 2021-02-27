@@ -1,0 +1,66 @@
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #4faaa5;
+  font-family: serif;
+  font-size: x-large;
+}
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #4faaa5;
+  font-family: serif;
+  font-size: 40px;
+}
+body {
+  background-image: url(../assets/images/background.png)
+}
+body h1 {
+  font-family: serif;
+  color: #4faaa5;
+  font-weight: 800;
+}
+img {
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+.lead {
+    font-size: medium;
+}
+.btn {
+
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #4faaa5;
+    border-color: #4faaa5;
+    margin-left: -2%;
+
+}
+.flink {
+    color: white;
+}
+small {
+color: white;
+text-align: center;
+font-size: 15px;
+}
+.fmenu {
+    text-align: right;
+}
+.footer {
+    background-color: #666666;
+    border-top: 8px solid #4faaa5;
+}
+@media only screen and (max-width: 575px) {
+    .row {
+      margin-right: 5%;
+    }
+    .footer {
+        text-align: center;
+    }
+    .fmenu {
+        margin-top: 5%;
+        text-align: center;
+    }
+  }
